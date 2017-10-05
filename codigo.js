@@ -1,20 +1,20 @@
 // Cifrado Cesar  
 function principal(palabra){ // Se cra una función llamada principal 
-	do{
+	do{  // se genera un Bucle itera hasta que se de  una opcion valida
 		var respuesta = prompt("Elige una opcion:1)Cifrar -2)Decifrar");// Se genera un prompt en donde el usuario ingresara una alternativa 1) Cifrar o 2)Descifrar.
 		if(respuesta != ""){ // si la respuesta es vacia se pasa al siguiente if en donde el usuario tiene que responder 1) o 2)
-			if(respuesta == "1") {
+			if(respuesta == "1") { // si la respuesta es identica a 1 .
 				Cifrar(); // acá al marcar 1 la respuesta será Cifrar.
-			} else if (respuesta == "2") {
-				Decifrar();
+			} else if (respuesta == "2") {// si la respuesta es identica a 2 
+				Decifrar();// la respuesa sera decifrar
 			} else {
-				alert("Ingrese una opción válida");
+				alert("Ingrese una opción válida");// si no se ingresan las opciones 1, 2 o vacio.
 			}
 		}
 	} while (respuesta == "" || (respuesta != "1" && respuesta != "2"));
 }
 
-var cifrar = function (palabra){
+/*var cifrar = function (palabra){ // es esta Function 
 	     opcionUno=prompt("Escribe una palabra");
 	     var cifrando= '';
 	     for(var i =0;i <opcionUno.length;i++){
@@ -26,7 +26,7 @@ var cifrar = function (palabra){
 	     		}else if {((aCodigoAscci>= 97)&&(aCodigoAscci<=122))
 	     			newOpcion=String.fromCharCode(((aCodigoAscci - 97 +33)%26)+97);
 	     		}
-	     		cifrando += newOpcion;
+	     		cifrando += newOpcion;*/
 	     	     
 	       	     
 }
